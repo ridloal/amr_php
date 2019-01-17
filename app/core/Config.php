@@ -9,5 +9,12 @@
 define('DEF_CONTROLLER', 'Home');
 define('DEF_METHOD', 'index');
 
-//Database Definition
+//BASEURL Definition
 define('BASEURL', 'http://localhost/amr_php');
+
+//Database Definition
+define('DB_DEFINE', 'mysql');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'amr_db');

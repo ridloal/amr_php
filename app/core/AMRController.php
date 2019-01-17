@@ -10,5 +10,11 @@ class AMRController{
 		require_once 'app/views/'. $view .'.php';
 	}
 
+	protected function model($model){
+		$modelName = $model.'Model';
+		require_once 'app/models/'. $modelName .'.php';
+		return new $modelName;
+	}
+
 
 }
