@@ -1,5 +1,5 @@
 # amr_php
 
-Framework PHP MVC sederhana
+My own simple PHP Framework
 
 Author : Muhammad Ridlo Alimudin
